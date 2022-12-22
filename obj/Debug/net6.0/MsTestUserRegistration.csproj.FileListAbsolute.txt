@@ -1,0 +1,5 @@
+C:\RFP-231-Assg\MsTestUserRegistration\obj\Debug\net6.0\MsTestUserRegistration.csproj.AssemblyReference.cache
+C:\RFP-231-Assg\MsTestUserRegistration\obj\Debug\net6.0\MsTestUserRegistration.GeneratedMSBuildEditorConfig.editorconfig
+C:\RFP-231-Assg\MsTestUserRegistration\obj\Debug\net6.0\MsTestUserRegistration.AssemblyInfoInputs.cache
+C:\RFP-231-Assg\MsTestUserRegistration\obj\Debug\net6.0\MsTestUserRegistration.AssemblyInfo.cs
+C:\RFP-231-Assg\MsTestUserRegistration\obj\Debug\net6.0\MsTestUserRegistration.csproj.CoreCompileInputs.cache

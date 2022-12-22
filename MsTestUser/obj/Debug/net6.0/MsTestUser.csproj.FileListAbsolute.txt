@@ -1,0 +1,6 @@
+C:\RFP-231-Assg\MsTestUserRegistration\MsTestUser\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\RFP-231-Assg\MsTestUserRegistration\MsTestUser\obj\Debug\net6.0\MsTestUser.csproj.AssemblyReference.cache
+C:\RFP-231-Assg\MsTestUserRegistration\MsTestUser\obj\Debug\net6.0\MsTestUser.GeneratedMSBuildEditorConfig.editorconfig
+C:\RFP-231-Assg\MsTestUserRegistration\MsTestUser\obj\Debug\net6.0\MsTestUser.AssemblyInfoInputs.cache
+C:\RFP-231-Assg\MsTestUserRegistration\MsTestUser\obj\Debug\net6.0\MsTestUser.AssemblyInfo.cs
+C:\RFP-231-Assg\MsTestUserRegistration\MsTestUser\obj\Debug\net6.0\MsTestUser.csproj.CoreCompileInputs.cache
