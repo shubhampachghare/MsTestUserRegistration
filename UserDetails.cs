@@ -11,6 +11,7 @@ namespace MsTestUserRegistration
     {
         public String firstName;
         public String lastName;
+        public String email;
         public Match FirstName(string firstname, string pattern)
         {
             this.firstName = firstname;
@@ -22,6 +23,14 @@ namespace MsTestUserRegistration
             this.lastName = lastname;
 
             return Regex.Match(lastName, pattern);
+
+        }
+        public Match Email(string email, string pattern)
+        {
+            this.email = email;
+
+
+            return Regex.Match(email, pattern);
 
         }
     }
