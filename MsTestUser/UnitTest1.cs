@@ -13,6 +13,7 @@ namespace MsTestUser
         string phoneNumber = "^(\\d{1,2}?)[- .][6-9]{1}[0-9]{9}$";
 
         string password = "^[a-zA-z](?=.*[A-Z]).(?=.*[0-9]).(?=.*?[#?!@$%^&*-]).{8,}$";
+        string email1 = "^[a-zA-Z-9]+([._+-]*[0-9A-Za-z]+)*@[a-zA-Z0-9]+.[a-zA-Z]{2,4}([.][a-z]{2,4})?$";
         UserDetails us = new UserDetails();
         [TestMethod]
         public void FirstName()
@@ -51,6 +52,14 @@ namespace MsTestUser
             var result = us.Password("ShUEYUF12344564%@idfu", password);
             Assert.AreEqual(true, result.Success);
 
+
+        }
+        //UC6 for email1 sample provided separately
+        [TestMethod]
+        public void Test9()
+        {
+            var result = us.Email1("shrutibelsare12546@gmail.com", email1);
+            Assert.AreEqual(true, result.Success);
 
         }
     }
