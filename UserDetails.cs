@@ -9,8 +9,11 @@ namespace MsTestUserRegistration
 {
     public class UserDetails
     {
-        ublic String email;
+        public String firstName;
+        public String lastName;
+        public String email;
         public String phoneNumber;
+        
         public Match FirstName(string firstname, string pattern)
         {
             this.firstName = firstname;
@@ -38,5 +41,8 @@ namespace MsTestUserRegistration
             return Regex.Match(phoneNumber, pattern);
 
         }
+      
+
+
     }
 }

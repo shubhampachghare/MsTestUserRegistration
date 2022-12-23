@@ -11,6 +11,8 @@ namespace MsTestUser
         string lastName = "^[A-Z]{1}[a-z]{2,10}$";
         string email = "^[a-zA-Z0-9]{3,}[@]{1}[A-Za-z0-9]+[.]{1}[a-zA-Z]{2,4}$";
         string phoneNumber = "^(\\d{1,2}?)[- .][6-9]{1}[0-9]{9}$";
+
+        
         UserDetails us = new UserDetails();
         [TestMethod]
         public void FirstName()
@@ -42,5 +44,6 @@ namespace MsTestUser
             Assert.AreEqual(true, result.Success);
 
         }
+        
     }
 }
