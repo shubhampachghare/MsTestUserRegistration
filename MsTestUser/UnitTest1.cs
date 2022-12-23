@@ -58,7 +58,7 @@ namespace MsTestUser
         [TestMethod]
         public void Test9()
         {
-            var result = us.Email1("shrutibelsare12546@gmail.com", email1);
+            var result = us.Email1("shubhampachghare12546@gmail.com", email1);
             Assert.AreEqual(true, result.Success);
 
         }
